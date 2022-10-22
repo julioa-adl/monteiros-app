@@ -1,0 +1,44 @@
+.header {
+  background-color: #fcc436;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.headerButton {
+  background-color: #fcc436;
+  border: none;
+  margin-right: 5px;
+}
+
+.title {
+  color: #15312c;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100vw;
+}
+
+
+.title h1 {
+  font-size: 2em;
+}
+
+.title img {
+  height: 40px;
+  width: auto;
+}
+
+/* .logo {
+  left: 15px;
+  position: absolute;
+  top: 12px;
+  width: 150px;
+} */
+
+.logo {
+  left: 15px;
+  position: absolute;
+  top: 8px;
+  width: 33px;
+}
