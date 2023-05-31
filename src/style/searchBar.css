@@ -1,0 +1,45 @@
+.searchBar {
+  margin: 10px;
+  max-width: 100vw;
+}
+
+.form {
+  align-items: center;
+  background-color: #15312c;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+}
+
+.text-label {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.form div label {
+  display: flex;
+  margin: 10px;
+}
+
+.form button {
+  color: white;
+  margin: 10px;
+  width: 80%;
+}
+
+/* .search_btn {
+  background-color: hsl(45, 89%, 54%);
+  color: hsl(169, 40%, 25%);
+} */
+
+.radio_btn_search {
+  margin-right: 5px;
+}

@@ -1,0 +1,23 @@
+.button {
+  background-color: rgb(255, 0, 0, 0);
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.buttons_container {
+  margin-right: 5px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 1;
+}
+
+.copylink {
+  color: white;
+  font-size: smaller;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  z-index: 1;
+}

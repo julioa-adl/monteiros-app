@@ -1,0 +1,138 @@
+.button_start_recipe {
+  background-color: hsl(45, 89%, 54%);
+  border: none;
+
+  /* background-color: white;
+  border: solid 1px hsl(169, 40%, 14%); */
+  border-radius: 5px;
+  /* bottom: 0; */
+  color: hsl(169, 40%, 14%);
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+  top: 90%;
+  width: 332px;
+  z-index: 10;
+}
+
+/* .button_start_recipe:hover, .button_start_recipe:focus, .button_start_recipe:active {
+  background-color: hsl(45, 89%, 54%);
+  border: none;
+} */
+
+.buttons_container {
+  display: flex;
+  justify-content: center;
+}
+
+.details_container {
+  padding-bottom: 45px;
+}
+
+.image {
+  filter: brightness(50%) contrast(130%);
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  z-index: 1;
+}
+
+.carrossel {
+  margin-top: -15px;
+  width: 100%;
+}
+
+.video_details {
+  margin-top: -15px;
+  width: 100%;
+}
+
+.title_details {
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 900;
+  left: 0;
+  letter-spacing: 0.105em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-wrap: break-word;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 90px;
+  width: 200px;
+}
+
+.icon_category_details {
+  left: 15px;
+  margin-right: 5px;
+  position: absolute;
+  top: 15px;
+  width: 25px;
+  z-index: 1;
+}
+
+.category_details {
+  color: white;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  left: 50px;
+  margin-right: 5px;
+  position: absolute;
+  top: 20px;
+  width: 25px;
+  z-index: 1;
+}
+
+.deltails_titles_page {
+  color: hsl(169, 40%, 14%);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.infos_details_container {
+  padding: 0 15px;
+}
+
+.ingredients {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: -15px;
+  margin-top: -15px;
+}
+
+.instructions {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: -15px;
+  text-align: justify;
+}
+
+.alcoholic {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 15px;
+  text-decoration: underline;
+}
+
+.img_carrossel {
+  filter: brightness(65%) contrast(130%);
+}
