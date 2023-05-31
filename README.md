@@ -1,5 +1,7 @@
 # MONTEIRO'S APP
 
+OBS: Aplicação exclusiva MOBILE.
+
 # Contexto
 Este projeto trata-se de uma Aplicação Front-End de App de Receitas, utilizando de uma API pública de receitas de Comidas e Drinks de Diversas Culturas.
 
