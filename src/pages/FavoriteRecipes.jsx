@@ -26,6 +26,7 @@ function FavoriteRecipes({ match }) {
     setRenderFav(getFavorites);
     setUpdate(true);
     console.log(alertCopy);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [update]);
 
   const copyBoard = (e) => {

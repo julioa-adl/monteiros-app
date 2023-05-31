@@ -36,6 +36,7 @@ function Drinks() {
     request();
     setCategoryON(false);
     setSearchON(false);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const twelveRecipes = (array) => {

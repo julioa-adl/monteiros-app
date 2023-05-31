@@ -76,6 +76,7 @@ function RecipeDetails({ match }) {
       setMeasure(filterIngredients('strMeasure', response[firstItem][0]));
     };
     request();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const history = useHistory();

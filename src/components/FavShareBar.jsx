@@ -20,6 +20,7 @@ function FavShareBar({ url, recipe, delet }) {
     const validation = localSavedInfos.some((e) => (
       e.id === recipe[`id${keyObj}`]));
     setSaved(validation);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [recipe]);
 
   const copyBoard = () => {

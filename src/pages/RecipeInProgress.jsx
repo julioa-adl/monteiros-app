@@ -47,6 +47,7 @@ function RecipeInProgress({ match }) {
       setMeasure(filterIngredients('strMeasure', response[firstItem][0]));
     };
     request2();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -88,6 +89,7 @@ function RecipeInProgress({ match }) {
 
   useEffect(() => {
     habilitarButton();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [progressRecipe]);
 
   const handleIngredientChecked = ({ target }) => {
