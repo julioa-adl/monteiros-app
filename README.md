@@ -7,7 +7,7 @@ Este projeto trata-se de uma Aplicação Front-End de App de Receitas, utilizand
 
 Nele é possível:
 - Logar com um Email e senha (não necessário registrar, apenas para ilustrar a funcionalidade).
-- A senha deve contar pelo menos 6 caracteres.
+- A senha deve contar pelo menos 7 caracteres.
 - Listar as receitas de Comidas e Bebidas existentes.
 - Iniciar uma receita, podendo listar os ingredientes que você tem.
 - Salvar progresso offline no localStorage.
